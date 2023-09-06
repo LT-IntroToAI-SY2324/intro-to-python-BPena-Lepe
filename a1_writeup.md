@@ -14,10 +14,12 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 
 1. What is your initial thoughts about the python programming language?
 
-
+Its readable and easy to understand.
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
 
-Python is much more user-friendly than java. 
+Python is much more user-friendly than java. The syntax is a little bit different but you still program in the same manner.
 
 3. What are some things that you learned through this assignment?
+
+I learned many things about python, like how to write if statements, loops, and lists.
