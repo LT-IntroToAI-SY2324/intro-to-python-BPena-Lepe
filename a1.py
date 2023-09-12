@@ -123,8 +123,8 @@ def median(lst: List[int]) -> float:
         even=lst[length/2]+lst[(length/2)-1]
         return even/2
     else:
-        oddd=lst[(length-1)/2]
-        return oddd
+        odd=lst[length//2]
+        return odd
     raise NotImplementedError("median")
 
 
@@ -151,7 +151,12 @@ def duck_duck_goose(lst: List[str]) -> List[str]:
     while len(lst)>2:
         if count%3==0:
             lst.pop(count-1)
-        count=count+1
+            if(count>=len(lst)):
+                count=(count%3)+1
+            
+            #count-=1
+            
+        count+=1
     return lst
     raise NotImplementedError("duck_duck_goose")
 
